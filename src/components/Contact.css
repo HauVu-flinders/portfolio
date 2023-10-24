@@ -1,0 +1,11 @@
+.contact {
+  display: flex;
+  justify-content: space-evenly;
+}
+.contact-form .form-input {
+  margin: 16px;
+}
+.contact-form .form-input input {
+  padding: 16px 48px 16px 8px;
+  font-size: 16px;
+}

@@ -1,0 +1,70 @@
+/* Common css */
+.pt-16 {
+  padding-top: 16px;
+}
+.pt-32 {
+  padding-top: 32px;
+}
+/* Main css */
+#about {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 32px;
+  display: flex;
+  width: 80%;
+  flex-direction: column;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+.col1 {
+  flex: 2;
+}
+.col2 {
+  flex: 1;
+}
+.skills {
+  /* text-align: center; */
+}
+.skills li {
+  list-style-type: none;
+}
+.info .name {
+  padding-left: 16px;
+  font-size: 46px;
+  color: #ffcd4b;
+}
+.intro {
+  margin-bottom: 32px;
+}
+.info a {
+  background-color: #ffcd4b;
+  border-radius: 15px;
+  padding: 16px;
+  margin-top: 32px;
+  text-transform: uppercase;
+  color: #000;
+  font-weight: 900;
+}
+.info a:hover {
+  background-color: #fff;
+}
+.pic img {
+  width: 100%;
+  border-radius: 10%;
+}
+
+.footer {
+  text-align: center;
+}
+.footer a {
+  padding: 16px;
+  font-size: 2.5em;
+  color: #ffcd4b;
+}
+.footer a:hover {
+  color: #fff;
+}
