@@ -6,7 +6,6 @@ import {
   faMedium,
 } from "@fortawesome/free-brands-svg-icons";
 import "./About.css";
-import { RadioButtonChecked } from "@mui/icons-material";
 export default function About() {
   const skills = [
     "HTML/CSS",
@@ -28,10 +27,11 @@ export default function About() {
           <h3 className="pt-16">Web Developer from Adelaide</h3>
           <div className="intro pt-16">
             <p className="intro-text">
-              A developer always tries the best at every single opportunity
-              given,<br></br>
-              focusing and loving to learn new technologies for<br></br>
-              anyprojects needed or to upgrade coding skills.
+              An IT graduate who always tries the best at every single
+              opportunity given, focusing,<br></br>
+              and loving to learn new technologies for any projects needed or to
+              upgrade IT skills. <br></br>I recently graduated Information
+              Technology at Flinders University with the GPA=6/7.
             </p>
           </div>
           <div>
