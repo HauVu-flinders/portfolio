@@ -27,11 +27,12 @@ export default function About() {
           <h3 className="pt-16">Web Developer from Adelaide</h3>
           <div className="intro pt-16">
             <p className="intro-text">
-              An IT graduate who always tries the best at every single
-              opportunity given, focusing,<br></br>
-              and loving to learn new technologies for any projects needed or to
-              upgrade IT skills. <br></br>I recently graduated Information
-              Technology at Flinders University with the GPA=6/7.
+              An IT graduate who always try the best at every single opportunity
+              given, focusing, and loving to learn new technologies for any
+              projects needed or to upgrade IT skills. <br></br>
+              My slogan is: "Never stop learning as life never stop teaching".
+              <br></br>I recently graduated Information Technology at Flinders
+              University with the GPA=6/7.
             </p>
           </div>
           <div>

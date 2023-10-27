@@ -12,7 +12,7 @@ export default function Project() {
       name: "The music band",
       image: project1,
       title: "Responsive Web Design",
-      desc: "Practicing HTML, CSS and JavaScript with W3schools project to understand and have more knowledge about a responsive website on PC, Tablet and Mobile. Controlling hidden navigation menu, working with Row and Column layout, and the position of all the elements in the web.",
+      desc: "Practicing HTML, CSS and JavaScript with W3schools project to understand and gain knowledge about a responsive website on PC, Tablet and Mobile. Controlling hidden navigation menu, positioning element using Row and Column layout, and styling of all the elements in the web.",
       tech: "HTML, CSS, JAVASCRIPT",
       icon: [<FaHtml5 />, <FaCss3Alt />, <FaJs />],
       gitHub: "https://github.com/HauVu-flinders/web_the_band",
@@ -35,7 +35,7 @@ export default function Project() {
       name: "Network analysis",
       image: project3,
       title: "Academic Master Project",
-      desc: "Using R language for data processing and Gephi for data visualization",
+      desc: "In this project, I explored the Flinders Medical Centre hospital as a patient flow network. I used R programming language to process the patient’s data, then using the final data set to visualisation in Gephi software.",
       tech: "R, Gephi",
       icon: [<FaRProject />, <faGephi />],
       gitHub: "https://github.com/HauVu-flinders/network_analysis",
@@ -54,6 +54,7 @@ export default function Project() {
           tech={project.tech}
           icon={project.icon}
           gitHub={project.gitHub}
+          page={project.page}
         />
       ))}
     </div>

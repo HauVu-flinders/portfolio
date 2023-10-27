@@ -40,6 +40,10 @@
 .intro {
   margin-bottom: 32px;
 }
+.intro .intro-text {
+  width: 70%;
+  line-height: 1.2;
+}
 .info a {
   background-color: #ffcd4b;
   border-radius: 15px;

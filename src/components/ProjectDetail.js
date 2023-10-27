@@ -20,7 +20,7 @@ export default function ProjectDetail(props) {
                 <a href={props.gitHub}>View site</a>
               </div>
               <div className="btn">
-                <a>View source</a>
+                <a href={props.page}>View source</a>
               </div>
             </div>
           </div>
