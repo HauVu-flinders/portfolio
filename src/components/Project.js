@@ -2,9 +2,16 @@ import "./Project.css";
 import project1 from "../img/project/project1.png";
 import project2 from "../img/project/project2.jpeg";
 import project3 from "../img/project/project3.png";
-import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaRProject } from "react-icons/fa";
-import { faGephi } from "@fortawesome/free-brands-svg-icons";
+import {
+  FaHtml5,
+  FaCss3Alt,
+  FaJs,
+  FaReact,
+  FaRProject,
+  FaLongArrowAltUp,
+} from "react-icons/fa";
 import ProjectDetail from "./ProjectDetail";
+import { useState, useEffect } from "react";
 export default function Project() {
   const projectLists = [
     {
@@ -37,11 +44,23 @@ export default function Project() {
       title: "Academic Master Project",
       desc: "In this project, I explored the Flinders Medical Centre hospital as a patient flow network. I used R programming language to process the patient’s data, then using the final data set to visualisation in Gephi software.",
       tech: "R, Gephi",
-      icon: [<FaRProject />, <faGephi />],
+      icon: [<FaRProject />],
       gitHub: "https://github.com/HauVu-flinders/network_analysis",
       page: "",
     },
   ];
+  //function handle go to top
+  const [showGoToTop, setShowGoToTop] = useState(false);
+  useEffect(() => {
+    const handleScroll = () => {
+      setShowGoToTop(window.scrollY >= 100);
+    };
+    window.addEventListener("scroll", handleScroll);
+    //cleanup function
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
   return (
     <div>
       {projectLists.map((project) => (
@@ -57,6 +76,11 @@ export default function Project() {
           page={project.page}
         />
       ))}
+      {showGoToTop && (
+        <div className="goToArrow">
+          <FaLongArrowAltUp />
+        </div>
+      )}
     </div>
   );
 }

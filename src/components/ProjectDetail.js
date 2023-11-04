@@ -10,7 +10,7 @@ export default function ProjectDetail(props) {
           <div className="showcase__description">
             <h2 className="showcase__title">{props.title}</h2>
             <p className="showcase__detail">{props.description}</p>
-            <div showcase_tech-stack>
+            <div className="showcase_tech-stack">
               <h3>Technologies involved:</h3>
               <p className="mt-8">{props.tech}</p>
             </div>
