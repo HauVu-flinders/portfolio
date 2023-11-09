@@ -17,10 +17,10 @@ export default function ProjectDetail(props) {
             <p className="showcase__icon mt-8">{props.icon}</p>
             <div className="btn__box">
               <div className="btn">
-                <a href={props.gitHub}>View site</a>
+                <a href={props.gitHub}>View source</a>
               </div>
               <div className="btn">
-                <a href={props.page}>View source</a>
+                <a href={props.page}>View site</a>
               </div>
             </div>
           </div>

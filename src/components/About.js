@@ -1,10 +1,5 @@
 import profile from "../img/about/profile.jpeg";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faGithub,
-  faLinkedin,
-  faMedium,
-} from "@fortawesome/free-brands-svg-icons";
+import { FaGithub, FaLinkedin, FaMedium } from "react-icons/fa";
 import "./About.css";
 export default function About() {
   const skills = [
@@ -36,11 +31,11 @@ export default function About() {
             </p>
           </div>
           <div>
-            <a>Download Resume</a>
+            <a href="">Download Resume</a>
           </div>
         </div>
         <div className="pic col2">
-          <img src={profile} alt="profile-picture" />
+          <img src={profile} alt="profile" />
         </div>
       </div>
       <div className="skills pt-32">
@@ -58,21 +53,21 @@ export default function About() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FontAwesomeIcon icon={faGithub} />
+            <FaGithub />
           </a>
           <a
             href="https://www.linkedin.com/in/sally-vu"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FontAwesomeIcon icon={faLinkedin} />
+            <FaLinkedin />
           </a>
           <a
             href="https://medium.com/@vuhau-hsph"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FontAwesomeIcon icon={faMedium} />
+            <FaMedium />
           </a>
         </div>
       </div>
