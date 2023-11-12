@@ -2,6 +2,7 @@ import "./Project.css";
 import project1 from "../img/project/project1.png";
 import project2 from "../img/project/project2.jpeg";
 import project3 from "../img/project/project3.png";
+import project4 from "../img/project/project4.png";
 import {
   FaHtml5,
   FaCss3Alt,
@@ -11,7 +12,7 @@ import {
   FaLongArrowAltUp,
 } from "react-icons/fa";
 import ProjectDetail from "./ProjectDetail";
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 export default function Project() {
   const projectLists = [
     {
@@ -46,6 +47,16 @@ export default function Project() {
       tech: "R, Gephi",
       icon: [<FaRProject />],
       gitHub: "https://github.com/HauVu-flinders/network_analysis",
+      page: "",
+    },
+    {
+      id: 4,
+      name: "Todo list",
+      image: project4,
+      title: "Todo list",
+      desc: "Practice useState, useReducer Hook by building small Todo list application",
+      icon: [<FaReact />],
+      gitHub: "",
       page: "",
     },
   ];
