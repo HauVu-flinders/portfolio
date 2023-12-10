@@ -3,12 +3,14 @@ import project1 from "../img/project/project1.png";
 import project2 from "../img/project/project2.jpeg";
 import project3 from "../img/project/project3.png";
 import project4 from "../img/project/project4.png";
+import { SiMongodb } from "react-icons/si";
 import {
   FaHtml5,
   FaCss3Alt,
   FaJs,
   FaReact,
   FaRProject,
+  FaNodeJs,
   FaLongArrowAltUp,
 } from "react-icons/fa";
 import ProjectDetail from "./ProjectDetail";
@@ -35,13 +37,22 @@ export default function Project() {
       tech: "HTML, CSS, JAVASCRIPT",
       icon: [<FaHtml5 />, <FaCss3Alt />, <FaJs />, <FaReact />],
       gitHub: "https://github.com/HauVu-flinders/portfolio",
-      page: "",
     },
 
     {
       id: 3,
-      name: "Network analysis",
+      name: "DEV EDUCATION",
       image: project3,
+      title: "MVC and CRUD",
+      desc: "A project created for learning NodeJS + Express + MongoDB(Mongoose). Understanding about the contructure with MVC and controling with CRUD",
+      icon: [<FaNodeJs />, <SiMongodb />],
+      gitHub: "https://github.com/HauVu-flinders/devEducation",
+      page: "",
+    },
+    {
+      id: 4,
+      name: "Network analysis",
+      image: project4,
       title: "Academic Master Project",
       desc: "In this project, I explored the Flinders Medical Centre hospital as a patient flow network. I used R programming language to process the patient’s data, then using the final data set to visualisation in Gephi software.",
       tech: "R, Gephi",
