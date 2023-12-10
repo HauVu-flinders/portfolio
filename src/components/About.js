@@ -1,5 +1,4 @@
-import profile from "../img/about/profile.jpeg";
-import { FaGithub, FaLinkedin, FaMedium } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 import "./About.css";
 export default function About() {
   const skills = [
@@ -19,7 +18,7 @@ export default function About() {
         <div className="info col1">
           <h2>Hello, I'm</h2>
           <h1 className="name">Sally Vu</h1>
-          <h3 className="pt-16">Web Developer from Adelaide</h3>
+          <h3 className="pt-16">Web Developer in Australia</h3>
           <div className="intro pt-16">
             <p className="intro-text">
               An IT graduate who always try the best at every single opportunity
@@ -30,13 +29,9 @@ export default function About() {
               University with the GPA=6/7.
             </p>
           </div>
-          <div>
-            <a href="">Download Resume</a>
-          </div>
+          <div>{/* <a href="">Download Resume</a> */}</div>
         </div>
-        <div className="pic col2">
-          <img src={profile} alt="profile" />
-        </div>
+        <div className="pic col2"></div>
       </div>
       <div className="skills pt-32">
         <h3>TECHNOLOGIES I WORK WITH:</h3>
@@ -61,13 +56,6 @@ export default function About() {
             rel="noopener noreferrer"
           >
             <FaLinkedin />
-          </a>
-          <a
-            href="https://medium.com/@vuhau-hsph"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FaMedium />
           </a>
         </div>
       </div>

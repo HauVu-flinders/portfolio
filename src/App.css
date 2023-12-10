@@ -5,12 +5,11 @@
   box-sizing: border-box;
 }
 body {
-  /* background: linear-gradient(
+  background: linear-gradient(
     90deg,
     rgba(109, 126, 210, 1) 17%,
     rgba(59, 173, 184, 1) 100%
-  ); */
-  background-color: #495e57;
+  );
   color: #fff;
 }
 /* Common css */

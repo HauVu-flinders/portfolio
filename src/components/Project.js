@@ -12,7 +12,7 @@ import {
   FaLongArrowAltUp,
 } from "react-icons/fa";
 import ProjectDetail from "./ProjectDetail";
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 export default function Project() {
   const projectLists = [
     {
@@ -34,7 +34,7 @@ export default function Project() {
       desc: "Practicing React by building my portfolio .",
       tech: "HTML, CSS, JAVASCRIPT",
       icon: [<FaHtml5 />, <FaCss3Alt />, <FaJs />, <FaReact />],
-      gitHub: "",
+      gitHub: "https://github.com/HauVu-flinders/portfolio",
       page: "",
     },
 
@@ -47,16 +47,6 @@ export default function Project() {
       tech: "R, Gephi",
       icon: [<FaRProject />],
       gitHub: "https://github.com/HauVu-flinders/network_analysis",
-      page: "",
-    },
-    {
-      id: 4,
-      name: "Todo list",
-      image: project4,
-      title: "Todo list",
-      desc: "Practice useState, useReducer Hook by building small Todo list application",
-      icon: [<FaReact />],
-      gitHub: "",
       page: "",
     },
   ];
