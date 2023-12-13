@@ -19,9 +19,11 @@ export default function ProjectDetail(props) {
               <div className="btn">
                 <a href={props.gitHub}>View source</a>
               </div>
-              <div className="btn">
-                <a href={props.page}>View site</a>
-              </div>
+              {props.page !== "" && (
+                <div className="btn">
+                  <a href={props.page}>View site</a>
+                </div>
+              )}
             </div>
           </div>
         </div>
