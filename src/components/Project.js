@@ -19,7 +19,7 @@ export default function Project() {
   const projectLists = [
     {
       id: 1,
-      name: "The music band",
+      name: "Westlife music band",
       image: project1,
       title: "Responsive Web Design",
       desc: "Practicing HTML, CSS and JavaScript with W3schools project to understand and gain knowledge about a responsive website on PC, Tablet and Mobile. Controlling hidden navigation menu, positioning element using Row and Column layout, and styling of all the elements in the web.",

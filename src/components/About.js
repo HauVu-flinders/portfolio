@@ -18,7 +18,7 @@ export default function About() {
         <div className="info col1">
           <h2>Hello, I'm</h2>
           <h1 className="name">Sally Vu</h1>
-          <h3 className="pt-16">Web Developer in Australia</h3>
+          <h3 className="pt-16">Web Developer</h3>
           <div className="intro pt-16">
             <p className="intro-text">
               An IT graduate who always try the best at every single opportunity
